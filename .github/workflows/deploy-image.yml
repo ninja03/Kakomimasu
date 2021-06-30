@@ -21,4 +21,3 @@ jobs:
           push: true
           tags: |
             docker.pkg.github.com/ninja03/kakomimasu/octo-image:${{ github.sha }}
-            docker.pkg.github.com/ninja03/kakomimasu/octo-image:${{ github.ref }}

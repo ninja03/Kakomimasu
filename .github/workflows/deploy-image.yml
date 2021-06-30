@@ -20,4 +20,4 @@ jobs:
         with:
           push: true
           tags: |
-            docker.pkg.github.com/ninja03/kakomimasu/${{ github.sha }}
+            docker.pkg.github.com/ninja03/kakomimasu:latest

@@ -17,4 +17,7 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
           context: .
           push: true
-          tags: ghcr.io/${{ github.repository }}/octo-image:${{ github.sha }}
+          tags: |
+            ghcr.io//ninja03/kakomimasu:latest
+            ghcr.io//ninja03/kakomimasu/${{ github.sha }}
+            ghcr.io//ninja03/kakomimasu/${{ github.ref }}

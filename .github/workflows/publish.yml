@@ -18,6 +18,6 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io//ninja03/kakomimasu:latest
-            ghcr.io//ninja03/kakomimasu/${{ github.sha }}
-            ghcr.io//ninja03/kakomimasu/${{ github.ref }}
+            ghcr.io/ninja03/kakomimasu:latest
+            ghcr.io/ninja03/kakomimasu/${{ github.sha }}
+            ghcr.io/ninja03/kakomimasu/${{ github.ref }}

@@ -19,6 +19,6 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          file: ./template/manifest/Dockerfile
+          file: ./Dockerfile
           tags: |
             docker.pkg.github.com/ninja03/kakomimasu:latest
